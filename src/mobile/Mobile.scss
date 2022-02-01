@@ -1,0 +1,41 @@
+.burger {
+    color: white;
+  //   padding: 4px 4px;
+  //   background-color: rgba(0, 41, 121, 1);
+    height: 55px;
+    width: 55px;
+    position: fixed;
+    z-index: 300;
+    left: 15px;
+  //   font-size: 30px;
+  margin: auto;
+  border-radius: 50px;
+  // background-color: white;
+  color: black;
+   top: 5px;
+}
+.iconss{
+  height: 55px !important;
+  width: 44px !important;
+  margin-left: 5px !important;
+
+}
+
+.mobile__container{
+  .cross__icon{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+
+  }
+  width: 350px;
+ .links{
+   margin:0 1rem ;
+   font-size: 20px;
+ }
+ .home{
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+}

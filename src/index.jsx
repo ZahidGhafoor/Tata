@@ -6,13 +6,16 @@ import Contact from './Contact';
 import Yogurt from './Yogurt';
 import Rose from './Rose';
 import Hero from './hero/Hero';
+import Mobile from './mobile/Mobile';
 reactDom.render(
   <>
- {/* <About/>
+ <Hero/>  
+
+
+ <About/>
  <Antigold/> 
  <Rose/>
  <Yogurt/>
- <Contact/> */}
- <Hero/>  
+ <Contact/>
   </>
 ,document.getElementById('root'));
