@@ -1,0 +1,121 @@
+
+                
+.gold_section{
+    height: 100vh;
+    background-image: url(./Assets/blur-bright-color-751374.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+    background-color: rgba(0, 0, 0, 0);
+   filter: brightness(.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;    
+gap: 2rem;
+
+}
+
+
+
+.gold_logo{
+    width: 150px;
+}
+
+
+
+.gold_title{
+    font-size: 4rem;
+    color:	white ;
+ 
+  
+}
+
+.gold_para{
+    max-width: 50rem; 
+    font-size: 1rem;
+    text-align: center;  
+    letter-spacing: .1rem;
+    line-height: 2.5rem;
+    color: white;
+
+}
+
+
+
+.g_btn{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: .2rem solid white;
+    text-align: center;
+    cursor: pointer;
+transition: 0.3s;
+color: white;
+
+}
+
+.g_btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+    
+@media (max-width:500px){
+
+    .gold_section{
+        padding: 2rem;
+    }
+    
+    .g_btn{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 1.3rem;
+        padding-bottom: 1.3rem;
+        font-size: 1rem;
+    
+    }
+    .gold_para{
+        font-size: 1rem;
+    }
+    .gold_title{
+    font-size: 3rem;
+    }
+    
+    .gold_logo{
+     width: 100px;
+    }
+    
+    }
+@media (max-width:380px){
+
+    .gold_section{
+        padding: 2rem;
+    }
+    
+    .g_btn{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+        font-size: .7rem;
+    
+    }
+    
+    .gold_title{
+    font-size: 1.8rem;
+    }
+    
+    .gold_para{
+        font-size: .6rem;
+    }
+    .gold_logo{
+     width: 60px;
+    }
+    
+    }
